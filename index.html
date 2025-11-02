@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Metamorphous&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Space+Grotesk:wght@300..700&family=Syne:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <section class="game-section">
+            <div id="game-container"></div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="controls">
+                <h3>🎮 Controles</h3>
+                <p><span>ESPACIO</span> o <span>CLICK</span> para saltar</p>
+                <p>Esquiva los obstáculos y consigue la mayor puntuación</p>
+            </div>
+
+
+            <div class="social-links">
+                <h3>🔗 Encuéntrame</h3>
+                <a href="https://www.adriancc.com/" target="_blank" class="social-btn portfolio">
+                    <i class="fas fa-globe"></i>
+                    Portfolio
+                </a>
+                <a href="https://github.com/Kvr0th3c4t" target="_blank" class="social-btn github">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/adrian-carmonamad/" target="_blank" class="social-btn linkedin">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+
+        </aside>
+    </main>
+
+    <script src="MenuScene.js"></script>
+    <script src="GameScene.js"></script>
+    <script src="GameOverScene.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
